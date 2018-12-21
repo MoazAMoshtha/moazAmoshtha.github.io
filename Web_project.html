@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Web Project </title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <script src="web_project.js"></script>
+    <link rel="stylesheet" type="text/css" href="web_project.css">
+</head>
+<body onload="changeText();">
+        <style>
+.mySlides {display:none;}
+</style>
+<div class="w3-content w3-section" style="width: 100%;" id="slides123">
+  <img class="mySlides" src="car.jpg" style="width:100%">
+  <img class="mySlides" src="slider.jpg" style="width:100%">
+  <img class="mySlides" src="phone.jpg" style="width:100%">
+  <img class="mySlides" src="gold.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="container ">
+    <h1 id="web">Web & Graphic Designer</h1><br/>
+    <h1 id="Learn_More"><a href="">Learn More</a></h1>
+     </div>
+    
+<ul id="ulul">
+<li style="float: left;"><p id="F">F</p></li>
+<li style="float: left;"><b id="OC">OC</b></li>
+<li style="float: left;"><b id="AL">AL</b></li>
+<li style="float:right" class="allli"><a href=""> <h1 id="Contact_Me">Contact Me</h1></a></li>
+<li style="float:right" class="allli"><a href=""> <h1 id="Portfolio">Portfolio</h1></a></li>
+<li style="float:right" class="allli"><a href=""> <h1 id="My_Education">My Education</h1></a></li>
+<li style="float:right" class="allli"><a href=""> <h1 id="r">Resume</h1></a></li>
+<li style="float:right" class="allli"><a href=""> <h1 id="Skills">Skills</h1></a></li>    
+<li style="float:right" class="allli"><a href=""> <h1 id="About_ME">About Me</h1></a></li>
+<li style="float:right" class="allli"><a href=""> <h1 id="Home">Home</h1></a></li>
+</ul>
+
+  <table  id="tableVALUES">
+  <tr id="trtitle">
+    <th id="VALUES" >VALUES</th>
+    <th id="GOALS">GOALS</th> 
+    <th id="HOBBIES">HOBBIES</th>
+  </tr>
+  <tr id="trpara">
+    <td id="trpara1" ><p>Lorem ipsum dolor sit amet, ea doming until epicuri nam,<br><br> virtute placerat.Purto brute disputando cu esst.</p></td>
+    <td id="trpara2"><p>Lorem ipsum dolor sit amet, ea doming until epicuri nam,<br><br> virtute placerat.Purto brute disputando cu esst.</p></td>
+    <td id="trpara3"><p>Lorem ipsum dolor sit amet, ea doming until epicuri nam,<br><br> virtute placerat.Purto brute disputando cu esst.</p></td>
+  </tr>
+</table>
+    <div id="aboutbackground"></div>
+        <img class="div1" src="profile.jpg" id="profile">
+    <h1 class="div1" id="aboutmeh1">ABOUT MY</h1>
+    <p class="div1" id="aboutmep2" >Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purto brute disputando cu esst.</p>
+    <p class="div1" id="aboutmep3">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat.</p>
+   <h1 class="div1 web2" id="h11">WEB DESIGN</h1>
+   <h1  class="div1 GRAPHIC" id="h12">GRAPHIC DESIGN</h1>
+   <h1 class="div1 ONLINE"  id="h13">ONLINE MARKTING</h1>
+   <h1 class="div1 SEO"  id="h14">SEO</h1>
+    <p class="div1 web2" id="p1">Lorem ipsum dolor sit amet, ea<br><br> doming until epicuri nam .</p>
+    <p class="div1 ONLINE" id="p2">Lorem ipsum dolor sit amet, ea <br><br>doming until epicuri nam .</p>
+    <p class="div1 GRAPHIC" id="p3">Lorem ipsum dolor sit amet, ea <br><br>doming until epicuri nam .</p>
+    <p class="div1 SEO" id="p4">Lorem ipsum dolor sit amet, ea <br><br>doming until epicuri nam .</p>
+    <img class="div1 web2" src="webdesign.png" id="img1">
+    <img class="div1 GRAPHIC" src="graphic.png" id="img2" >
+    <img class="div1 ONLINE" src="online.png" id="img3">
+    <img class="div1 SEO" src="seo.png" id="img4" >
+          
+<h1 class="div2" id="my1">My Skilis</h1>
+<p class="div2" id="pmy">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purto<br><br>brute disputando cu est ,orem ipsum dolor sit amet, ea doming until epicuri nam, <br><br>brute disputando<br><br><br>Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purto<br><br>brute disputando cu est </p>
+<h1 class="div2" id="contactme"><a href="">Contact Me</a></h1>          
+<p class="div2 name" id="Photoshop">Photoshop</p>
+<div id="skillBar" class="div2">
+<div id="skills Photoshop" class="div21 Photoshop">90%</div>
+</div>
+<p class="div2 name" id="Illustrator" >Illustrator</p>
+<div id="skillBar" class="div2">
+<div class="div21 Illustrator">80%</div>
+</div>
+<p class="div2 name" id="HTML" >HTML/CSS</p>
+<div id="skillBar" class="div2">
+<div class="div21 HTML">70%</div>
+</div>
+<p class="div2 name" id="PHP" >PHP/MYSQL</p>
+<div id="skillBar" class="div2">
+<div class="div21 PHP">100%</div>
+</div>
+           
+           
+<div class="div3" id="aboutbackgroung2"></div>
+<h1 class="div3" id="Resume" >Resume</h1>
+<p class="div3" id="pResume">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,orem ipsum dolor sit amet, ea doming until epicuri nam <br><br>ipsum dolor sit amet, ea doming until epicuri nam.</p>
+ <h1 class="div3" id="Download"><a href="">Download Resume</a></h1>           
+<h1 id="Education">My Education</h1>
+<p id="pEducation">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>orem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>ipsum dolor sit amet, ea doming until epicuri nam .</p>
+<p id="pEducation1">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>ipsum dolor sit amet, ea doming until epicuri nam .</p>
+ <h1 id="hGraphic">Graphic Desidn Diploma</h1>
+ <p id="Reeves">Reeves College / June 2008 - May 2010</p>
+ <h1 id="GPA">4.0 GPA</h1>
+ <hr id="hr">
+ <p id="bhr">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>orem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>ipsum dolor sit amet, ea doming until epicuri nam .</p>
+ <h1 id="cit">CIT Diploma</h1>
+ <p id="pcit">Lethbridge Colleae / june 2006 - May 2008</p>
+ <h1 id="GPA2">4.0 GPA</h1>
+  <hr id="hr2">
+ <p id="bhr1">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>orem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>ipsum dolor sit amet, ea doming until epicuri nam .</p>
+ <hr id="hr3">
+ <h1 id="Work">Work Experience</h1> 
+<p id="pwork">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>orem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>ipsum dolor sit amet, ea doming until epicuri nam .<br><br><br>
+Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>ipsum dolor sit amet, ea doming until epicuri nam .</p>
+<h1 id="Lead">Lead WEb Designer</h1>
+<p id="ABC">ABC Company, Saskatoon/June 2011 - Presrnt</p>
+<h1 id="years3">3 Years</h1>
+ <hr id="hryears">        
+<p id="p3years">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>orem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>ipsum dolor sit amet, ea doming until epicuri nam .</p>
+<h1 id="Junior">Junior Designer</h1>
+<p id="XYZ">XYZ Company,Lethbridge/June 2008 - May 2009</p>
+ <h1 id="years1">1 Years</h1>
+<hr id="hr1years"> 
+  <p id="p1years">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>orem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>ipsum dolor sit amet, ea doming until epicuri nam .</p>        <h1 id="WebDeveloper">Web Developer</h1>
+           <p id="TheCompany">The Company, Lethbrige/ June 2007 - May 2008</p>
+            <h1 id="years12">1 Years</h1>
+           <hr id="hr1years2"> 
+           <p id="p1years2">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>orem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,<br><br>ipsum dolor sit amet, ea doming until epicuri nam .</p>  
+<div id="divtxtslide"></div>
+    <p id="textslide"></p>  
+    
+  <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+<h1 id="Portfolio">Portfolio</h1>
+    <p id="pPortfolio">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est ,orem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. Purtobrute disputando cu est nam.</p>
+   <table id="imgtable">
+    <tr>
+       <td class="imgabl">    <img src="1.jpg" id="jpg1"></td>
+       <td  class="imgabl">    <img src="2.jpg" id="jpg2" ></td>
+       <td  class="imgabl">    <img src="3.jpg" id="jpg3"></td>
+    </tr>
+         <tr>
+       <td  class="imgabl">    <img src="4.jpg" id="jpg4"></td>
+       <td  class="imgabl">    <img src="1.jpg" id="jpg12"></td>
+       <td  class="imgabl">    <img src="2.jpg" id="jpg22"></td>
+    </tr>
+         <tr>
+       <td  class="imgabl">    <img src="3.jpg" id="jpg32"></td>
+       <td  class="imgabl">    <img src="4.jpg" id="jpg42"></td>
+       <td  class="imgabl">    <img src="1.jpg" id="jpg13"></td>
+    </tr>
+    </table>
+  <div id="lastdiv" class="lastdivclass"></div>
+    <h1 id="con">Conact Me</h1>
+    <p id="pcon">Lorem ipsum dolor sit amet, ea doming until epicuri nam, virtute placerat. <br><br>orem ipsum dolor sit amet, ea doming until epicuri nam, virtute <br><br>ipsum dolor sit amet, ea doming . <br><br><br>122 33rd Street East<br><br>Saskatoon, SK<br><br>S7k 1R9<br><br><br><b style="color:#B8C0C2 ">Email : </b>info@focal.com<br><br><b style="color:#B8C0C2 ">Phone : </b>1-306-222-2323</p>
+    <h1 id="name">Name*</h1>
+    <input id="inputname" type="text" name="name">
+    <h1 id="EmailAddress">Email Address*</h1>
+    <input id="inputemail" type="text" name="name" >
+    <h1 id="Message">Message*</h1>
+    <textarea id="textarea" ></textarea>
+    <h1 id="contactmelast"><a href="">Contact Me</a></h1>
+    <div id="lastdiv2" ></div>
+    <h1 id="Copyright">Copyright © 2015 SAAD - Built With Passion</h1>
+    <table id="lasticon">
+    <tr>
+    <td class="lasttd"><a href=""><img src="Facebook.png"></a></td>
+    <td  class="lasttd"><a href=""><img src="Google_.png"></a></td>
+    <td  class="lasttd"><a href=""><img src="Twitter.png"></a></td>
+    <td  class="lasttd"><a href=""><img src="LinkedIn.png"></a></td>
+    <td  class="lasttd"><a href=""><img src="Pinterest.png"></a></td>
+    
+        </tr>
+    </table>
+</body>
+</html>

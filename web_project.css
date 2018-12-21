@@ -1,0 +1,731 @@
+body{
+margin: 0px;
+}
+.div1{
+  transform: translate(0px,40px); 
+}
+.web2{
+  transform: translate(-60px,670px)
+}
+.GRAPHIC{
+   transform: translate(0px,670px)
+}
+.ONLINE{
+      transform: translate(-60px,680px)
+
+}
+.SEO{
+       transform: translate(0px,680px)
+}
+.div2{
+ transform: translate(0px,180px)
+}
+.div3{
+ transform: translate(0px,180px);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#slidimge1{
+    width: 100%;height: 580px;padding: 0px;margin: 0px;
+}
+#slides123{
+    position: absolute;
+    }
+
+#web{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 150%);
+  font-size: 50px;
+  
+
+}
+
+#Learn_More{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 350%);
+  font-size: 20px;
+  border-style: solid;
+  padding: 5px 25px 5px 25px;
+  
+}
+#Learn_More a{
+  color: white;
+  text-decoration: none;
+}
+
+#ulul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #272F31;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  transform: translate(0px,-5px);
+height: 80px;
+}
+.allli{
+  transform: translate(-30px,7px)
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+h1{
+    font-size: 17px;
+}
+
+li a:hover {
+    color: green;
+}
+
+#F{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  font-size: 30px;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #565B55; 
+  margin: 0px;
+}
+#OC{
+     position: absolute;
+    top: 22px;
+    left: 97px;
+    font-size: 30px;
+    color: white;
+}
+#AL{
+     position: absolute;
+    top: 22px;
+    left: 140px;
+     font-size: 30px;
+     color: #42C382;
+}
+
+#tableVALUES{
+    position: relative;
+    top: 150px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    bottom: 0px;
+}
+#trtitle{
+    font-size: 30px;
+    text-align: left; 
+}
+#VALUES{
+    position: absolute;
+    left: 150px;
+    top: -70px;
+}
+#GOALS{
+   position: absolute;
+    left: 600px;
+    top: -70px; 
+}
+#HOBBIES{
+   position: absolute;
+    right: 350px;
+    top: -70px; 
+}
+#trpara1{
+    position: absolute;
+    left: 150px;
+    top: -40px;
+}
+#trpara2{
+    position: absolute;
+    left: 600px;
+    top: -40px;
+}
+#trpara3{
+    position: absolute;
+    right: 114px;
+    top: -40px;
+}
+.div21{
+   position: relative;
+}
+.para{
+ padding: 50px;
+}
+
+#profile{
+    height: 500px;
+    width: 450px;
+    position: absolute;
+    left: 90px;
+    top: 895px;
+    background-color: aqua;
+}
+#aboutbackground{
+    position: relative;
+    top: 266px;
+    background-color: #EFEFEF;
+    height: 500px;
+}
+#aboutmeh1{
+    position: absolute;
+    left: 630px;
+    top: 910px;
+    font-size: 30px;
+    color: black;
+    
+}
+#aboutmep2{
+    position: absolute;
+    left: 630px;
+    top: 980px;
+}
+#aboutmep3{
+   position: absolute;
+   left: 630px;
+    top: 1010px;
+}
+#h11{
+   position: absolute;
+   left: 750px;
+    top: 450px;  
+}
+#h12{
+    position: absolute;
+    left: 1200px;
+    top: 450px;
+}
+#h13{
+    position: absolute;
+   left: 750px;
+    top: 600px;
+} 
+#h14{
+     position: absolute;
+   left: 1200px;
+    top: 600px;
+}
+#p1{
+   position: absolute;
+   left: 750px;
+   top: 480px; 
+    
+}
+#p2{
+    position: absolute;
+   left: 750px;
+    top: 630px;
+}
+#p3{
+  position: absolute;
+   left: 1200px;
+   top: 480px;   
+}
+#p4{
+    position: absolute;
+   left: 1200px;
+    top: 630px;
+}
+#img1{
+  position: absolute;
+   left: 690px;
+   top: 490px;    
+}
+#img2{
+     position: absolute;
+     left: 1140px;
+     top: 485px; 
+}   
+#img3{
+    position: absolute;
+    left: 690px;
+    top: 635px;
+}
+#img4{
+     position: absolute;
+   left: 1140px;
+    top: 635px;
+}
+#my1{
+   position: absolute;
+    top: 1300px;
+    left: 90px;
+    font-size: 40px;
+    color: #272F30;
+    
+}
+#pmy{
+    color: #272F30;
+    position: absolute;
+    text-align: left;
+    top: 1380px;
+    left:90px ;
+}
+#contactme{
+  position: absolute;
+  top: 1650px;
+  left: 200px;
+  transform: translate(-50%, 350%);
+  font-size: 30px;
+  border-style: solid;
+  padding: 5px 35px 5px 35px;
+  border-color: mediumaquamarine
+    
+}
+#contactme a {
+    color: mediumaquamarine;
+    text-decoration: none;
+}
+
+#skillBar {
+  width: 30%;
+  height: 20px;
+  background-color: #ddd;
+  position: relative;
+  left: 900px;
+  top: 170px;
+  margin: 60px;
+}
+
+.Photoshop {width: 90%; background-color: #4CAF50; height: 20px;}
+.Illustrator {width: 80%; background-color: #4CAF50;height: 20px;} 
+.HTML {width: 70%; background-color: #4CAF50;height: 20px;} 
+.PHP {width: 100%; background-color: #4CAF50;height: 20px;}
+
+#Photoshop{
+    position: absolute;font-weight: bold;top: 860px;left: 960px;top: 1350px; font-size: 20px; 
+}
+#Illustrator{
+    position: absolute;font-weight: bold;top: 940px;left: 960px;top: 1430px;font-size: 20px;
+}
+#HTML{
+    position: absolute;font-weight: bold;top: 1020px;left: 960px;top: 1510px;font-size: 20px; 
+}
+#PHP{
+    position: absolute;font-weight: bold;top: 1100px;left: 960px;top: 1589px;font-size: 20px; 
+}
+
+#aboutbackgroung2{
+     position: relative;
+     top: 230px;
+     background-color:#EFEFEF;
+     height: 230px;
+    
+}
+#Resume{
+    position: absolute;
+    text-align: center;
+    top: 1780px;
+    left: 740px;
+    font-size: 30px;
+    color: #272F30;
+  
+    
+}
+#pResume{
+    position: absolute;
+    text-align: center;
+    top: 1830px;
+    left: 290px;
+    color: #272F30;
+}
+#Download{
+  position: absolute;
+  left: 680px;
+  top: 1910px;
+  font-size: 20px;
+  border-style: solid;
+  border-color: mediumaquamarine;
+  padding: 5px 30px 5px 30px;
+  font-weight: bold;
+}
+#Download a{
+    color: mediumaquamarine;
+    text-decoration: none;
+}
+#Education{
+    position: absolute;
+    top: 2250px;
+    left: 90px;
+    font-size: 30px;
+    color: #272F30;
+}
+#pEducation{
+    position: absolute;
+   top: 2350px;
+    left: 90px;
+    color: #272F30;
+}
+#pEducation1{
+    position: absolute;
+    color: #272F30;
+    top: 2450px;
+    left: 90px
+}
+#hGraphic{
+    position: absolute;
+    right: 400px;
+    top: 2250px;
+    color: #565B55;
+}
+#Reeves{
+    position: absolute;
+    right: 326px;
+    top: 2280px;
+    color: #A6A9AE;
+}
+#GPA{
+   position: absolute;
+    right: 510px;
+    top: 2310px; 
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+#hr{
+    width: 500px;
+    position: absolute;
+    right: 80px;
+    top: 2369px;
+}
+#bhr{
+    position: absolute;
+    right: 80px;
+    top: 2410px;
+    font-size: 12px;
+    color: #A6A9AE;
+}
+#cit{
+    position: absolute;
+    right: 480px;
+    top: 2550px;
+    color: #565B55;
+    
+}
+#pcit{
+   position: absolute;
+    right: 300px;
+    top: 2580px;
+    color: #A6A9AE;
+}
+#GPA2{
+    position: absolute;
+    right: 510px;
+    top: 2610px; 
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+#hr2{
+      width: 500px;
+    position: absolute;
+    right: 80px;
+    top: 2669px;
+}
+#bhr1{
+  position: absolute;
+    right: 80px;
+    top: 2720px;
+    font-size: 12px;
+    color: #A6A9AE;   
+}
+#hr3{
+    width: 1200px;
+    transform: translate(0px,1100px)
+}
+#Work{
+    position: absolute;
+    top: 2920px;
+    left: 90px;
+    font-size: 30px;
+    color: #272F30;  
+}
+#pwork{
+    position: absolute;
+    top: 2980px;
+    left: 90px;
+    color: #272F30; 
+}
+#Lead{
+    position: absolute;
+    right: 430px;
+    top: 2980px;
+    color: #565B55;
+}
+#ABC{
+    position: absolute;
+    right: 280px;
+    top: 3004px;
+    color: #A6A9AE;
+}
+#years3{
+    position: absolute;
+    right: 515px;
+    top: 3033px; 
+    background-color: green;
+    padding: 5px;
+    color: white; 
+}
+#hryears{
+    width: 500px;
+    position: absolute;
+    right: 80px;
+    top: 3099px;
+}
+#p3years{
+   position: absolute;
+    right: 80px;
+    top: 3150px;
+    font-size: 12px;
+    color: #A6A9AE; 
+}
+#Junior{
+      position: absolute;
+    right: 460px;
+    top: 3290px;
+    color: #565B55;
+}
+#XYZ{
+    position: absolute;
+    right: 256px;
+    top: 3313px;
+    color: #A6A9AE; 
+}
+#years1{
+    position: absolute;
+    right: 515px;
+    top: 3340px; 
+    background-color: green;
+    padding: 5px;
+    color: white;  
+}
+#hr1years{
+      width: 500px;
+    position: absolute;
+    right: 80px;
+    top: 3410px;
+}
+#p1years{
+    position: absolute;
+    right: 80px;
+    top: 3450px;
+    font-size: 12px;
+    color: #A6A9AE; 
+}
+#WebDeveloper{
+    position: absolute;
+    right: 470px;
+    top: 3580px;
+    color: #565B55; 
+}
+#TheCompany{
+    position: absolute;
+    right: 266px;
+    top: 3604px;
+    color: #A6A9AE;
+}
+#years12{
+    position: absolute;
+    right: 515px;
+    top: 3630px; 
+    background-color: green;
+    padding: 5px;
+    color: white;
+}
+#hr1years2{
+    width: 500px;
+    position: absolute;
+    right: 80px;
+    top: 3695px;
+}
+#p1years2{
+    position: absolute;
+    right: 80px;
+    top: 3750px;
+    font-size: 12px;
+    color: #A6A9AE;
+}
+#divtxtslide{
+    background-color: #EFEFEF;
+    height: 300px;
+    position: relative;
+    top: 2100px;
+    
+}
+#textslide{
+    text-align: center;
+    transform: translate(0px,1850px)
+}
+.dot {
+  position: relative;
+  top: 1900px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 30%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+#Portfolio{
+ position: absolute;
+    top: 4270px;
+right: 720px;
+    font-size: 30px;
+    color: #565B55;
+    
+}
+#pPortfolio{
+ position: absolute;
+    right: 80px;
+    top: 4330px;
+     color: #A6A9AE;
+}
+#imgtable{
+    position: absolute;
+    top: 4420px;
+    left: 115px;
+    
+}
+.imgabl{
+    padding: 30px;
+}
+
+#lastdiv{
+    position: absolute;
+    top: 5540px;
+    background-color: #272F31;
+    width: 100%;
+    height: 800px;
+}
+#con{
+    position: absolute;
+    top: 5600px;
+    left: 170px;
+    color: #B8C0C2;
+    font-size: 50px;
+}
+#pcon{
+    position: absolute;
+    top: 5710px;
+    left: 170px;
+    color: 	#63696C;
+}
+#name{
+     position: absolute;
+    top: 5640px;
+    right: 566px;
+    color: #B8C0C2;
+    font-size: 20px;
+}
+#inputname{
+    position: absolute;
+    top: 5699px;
+    right: 225px;
+    width: 400px;
+    font-size: 20px;
+    background-color: #B8C0C2;
+    border: 0px;
+        height: 30px;
+
+}
+#EmailAddress{
+     position: absolute;
+    top: 5770px;
+    right: 490px;
+    color: #B8C0C2;
+    font-size: 20px; 
+}
+#inputemail{
+        position: absolute;
+    top: 5830px;
+    right: 225px;
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #B8C0C2;
+        border: 0px;
+
+}
+#Message{
+    position: absolute;
+    top: 5900px;
+    right: 540px;
+    color: #B8C0C2;
+    font-size: 20px; 
+}
+#textarea{
+    position: absolute;
+    top: 5960px;
+    right: 225px;
+    width: 400px;
+    height: 250px;
+    font-size: 20px;
+    background-color: #B8C0C2;
+        border: 0px;
+}
+#contactmelast{
+  position: absolute;
+  top: 6220px;
+  right: 410px;
+  font-size: 30px;
+  padding: 10px 35px 10px 35px;
+  background-color: #192020;
+    
+}
+#contactmelast a {
+    color: white;
+    text-decoration: none;
+}
+#lastdiv2{
+    position: absolute;
+    top: 6340px;
+    background-color: #192020;
+    width: 100%;
+    height: 200px;
+}
+#Copyright{
+  position: absolute;
+  top: 6399px;
+    left: 580px;
+    color: #B8C0C2;
+
+}
+#lasticon{
+    position: absolute;
+    right: 650px;
+    top: 6450px;
+
+}
+.lasttd{
+    padding: 5px;
+    
+}
+.lasttd a:hover{
+        
+}
